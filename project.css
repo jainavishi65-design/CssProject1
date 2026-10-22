@@ -1,0 +1,95 @@
+@import url("./util.css");
+:root{
+    --primary-color: white;
+    --text-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: var(--primary-color);
+}
+header{
+    background-color: aliceblue;
+    border-bottom-width: 1px;
+    border-color: black;
+    border-bottom: #2e2e2e;
+    solid ipx;
+}
+.header-overLay{
+    padding: 30px 40px;
+    width: 90%;
+}
+nav>ul{
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+
+}
+.header-overLay>ul{
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    a{   
+    color: var(--primary-color);
+}
+.box{
+    display: none;
+}
+}
+.hero{
+    background-image: url("https://htmldemo.net/destry/destry/assets/images/slider/slide-1.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 20px;
+}
+.hero-overLay{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    gap: 20px;
+}
+.btn-primary{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #2e2e2e;
+    color: aliceblue;
+}
+.hero-overLay{
+    h1{
+        font-size: 50px;
+    }
+    p{
+    font-size: 20px;
+    color: lightcoral;
+    }
+}
+@media(max-width:1186px){
+    .nav-links{
+        display: none;
+    }
+    .nav-cart{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+}
+
+
+
